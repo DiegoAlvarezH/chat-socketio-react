@@ -1,0 +1,25 @@
+{
+  "name": "socket-messages-react",
+  "version": "1.0.0",
+  "description": "Prueba tecnica para choucair",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon backend/src/app.js --ignore frontend",
+    "build": "npm run --prefix frontend build",
+    "start": "node backend/src/app.js"
+  },
+  "keywords": [],
+  "author": "Diego Alvarez H",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "socket.io": "^4.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
