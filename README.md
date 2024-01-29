@@ -62,7 +62,8 @@ Cuerpo de la solicitud (JSON):
 }
 ```
 
-# Socket Events:
+# Socket Eventos :
+En el archivo App.js
 `connection`: Evento emitido cuando un nuevo cliente se conecta al servidor.
 `setNick`: Evento para establecer el Nick del usuario.
 `message`: Evento para enviar y recibir mensajes.
