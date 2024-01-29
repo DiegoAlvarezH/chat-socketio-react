@@ -1,31 +1,35 @@
 ## Chat Socket io para choucair
 
-Aplicacion de chat en tiempo real utilizando Nodejs, React, Socketio, TaildwindCSS, Tostify, 
+Aplicacion de chat en tiempo real utilizando Nodejs, React, Socketio, TaildwindCSS, Tostify.
 
 
 ## Backend
 
 - Node.js
+  - morgan 
   - express
   - socket.io
+  - cors
+  - 
 
-1. Asegúrate de tener Node.js instalado en tu sistema.
+1. Asegúrate de tener Node.js instalado en tu sistema (Versin 14 o superior).
 
 2. Abre una terminal y navega al directorio del backend:
 
    ```bash
-   cd backend
+   1. cd backend
 
-   npm install
+   2. npm install
 
-   npm start
+   3. npm start / npm run dev
    ```
 
 ## Frontend
 
 - React
 - TailwindCSS
-
+- Toastify
+- Vite
 
 
 ## Detalles de la API
@@ -59,7 +63,7 @@ Cuerpo de la solicitud (JSON):
 ```
 
 # Socket Events:
-connection: Evento emitido cuando un nuevo cliente se conecta al servidor.
-setNick: Evento para establecer el Nick del usuario.
-message: Evento para enviar y recibir mensajes.
+`connection`: Evento emitido cuando un nuevo cliente se conecta al servidor.
+`setNick`: Evento para establecer el Nick del usuario.
+`message`: Evento para enviar y recibir mensajes.
 
