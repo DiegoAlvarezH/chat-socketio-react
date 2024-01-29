@@ -10,7 +10,8 @@ Aplicacion de chat en tiempo real utilizando Nodejs, React, Socketio, TaildwindC
   - express
   - socket.io
   - cors
-  - 
+
+Instrucciones para ejecutar el Backend
 
 1. Asegúrate de tener Node.js instalado en tu sistema (Versin 14 o superior).
 
@@ -31,6 +32,17 @@ Aplicacion de chat en tiempo real utilizando Nodejs, React, Socketio, TaildwindC
 - Toastify
 - Vite
 
+Instrucciones para ejecutar el frontend 
+
+   ```bash
+   1. cd frontend
+
+   2. npm install
+
+   3. npm run dev
+   ```
+
+Nota: por defecto la aplicacion se ejecutara en el puerto 5173
 
 ## Detalles de la API
 
